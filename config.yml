@@ -1,0 +1,17 @@
+#### Required Configuration Values
+# twitter API consumer key
+consumer_key:
+# twitter API consumer secret
+consumer_secret:
+# twitter API access token
+access_token:
+# twitter API access token secret
+access_token_secret:
+
+#### Optional Configuration Values
+# interval in seconds to print the data, defaults to 60 seconds
+interval: 5
+# zmq port, defaults to 1122
+port: 1122
+# maximum number of tweets to print, defaults to 10
+max_tweets: 5
