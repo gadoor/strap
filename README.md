@@ -23,5 +23,5 @@ max_tweets: maximum number of tweets to print, defaults to 10
 ```
 Run the app:
 ```
-(venv)path/to/application/home$ python strap.py "keyword1, keyword2, ..."
+(venv)path/to/application/home$ python strap.py "keyword1, keyword2, ..." [path/to/config.yml]
 ```
