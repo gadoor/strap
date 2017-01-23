@@ -3,12 +3,14 @@
 @Email-1: hizaoui.ma@gmail.com
 """
 import sys
-from tweepy import OAuthHandler
-from tweepy import Stream
-from config import conf
-from get_twitter_stream import CustomStreamListener
-from print_parsed_stream import PrintParsedStream
 
+from tweepy import OAuthHandler
+
+from tweepy import Stream
+
+from utils.config import conf
+from utils.get_twitter_stream import CustomStreamListener
+from utils.print_parsed_stream import PrintParsedStream
 
 if __name__ == '__main__':
     try:

@@ -3,9 +3,10 @@
 @Email-1: hizaoui.ma@gmail.com
 """
 import json
+
 from tweepy.streaming import StreamListener
 
-from parse_twitter_stream import ParseTwitterStream
+from utils.parse_twitter_stream import ParseTwitterStream
 
 
 class CustomStreamListener(StreamListener):

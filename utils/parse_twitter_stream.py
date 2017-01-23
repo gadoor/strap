@@ -2,12 +2,13 @@
 @Author: Hizaoui Mohamed Abdelkader
 @Email-1: hizaoui.ma@gmail.com
 """
-import hashlib
 import json
 import time
+
+import hashlib
 import zmq
 
-from config import conf
+from utils.config import conf
 
 
 class ParseTwitterStream(object):

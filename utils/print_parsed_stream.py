@@ -3,12 +3,13 @@
 @Email-1: hizaoui.ma@gmail.com
 """
 import json
-import shutil
 import subprocess as sp
 from multiprocessing import Process
+
+import shutil
 import zmq
 
-from config import conf
+from utils.config import conf
 
 
 class PrintParsedStream(object):
