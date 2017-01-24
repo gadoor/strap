@@ -6,7 +6,7 @@ Running this application is really simple (make sure that `python-virtualenv` is
 ```
 $ virtualenv -p python3.4 venv
 $ source venv/bin/activate
-(venv)path/to/application/home$ pip install requirements.txt
+(venv)path/to/application/home$ pip install -r requirements.txt
 ```
 Before running the application make sure to change the following required configuration values in `config.yml` file:
 ```
